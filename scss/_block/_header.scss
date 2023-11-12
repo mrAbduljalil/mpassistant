@@ -1,0 +1,334 @@
+.header{
+    .nav{
+        .container{
+            .mpassistant{
+                &__block{
+                 display: flex;
+                 justify-content:space-around;
+                 align-items: center;
+                 padding-top: 30px;
+                    &-logo{
+                      display: flex;
+                      justify-content: center;
+                      align-items: center;
+                      gap: 31px;
+                        
+                        &-p{
+                         width: 220px;
+                         color: #969EB1;
+                         font-family: 'Assistant', sans-serif;
+                         font-size: 14px;
+                         font-style: normal;
+                         font-weight: 400;
+                         line-height: 125%;
+                        }
+                        .span1{
+                         color: #702A8A;
+                        }
+                        .span2{
+                         color: #1065FF;
+                        }
+                    }
+                    .list{
+                        &__menu{
+                            display: flex;
+                            gap: 36px;
+                            &-item{
+                                color: #212121;
+                                font-family: 'Assistant', sans-serif;
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 125%;
+                                letter-spacing: 0.36px;
+                            }
+                            &-link{
+                                color: #212121;
+
+                            }
+                        }
+                    }
+                    .btns{
+                        &-img2{
+                            display: none;
+                        }
+                        &-span{
+                           width: 65px;
+                           color: #212121;
+                           text-align: center;
+                           font-family: 'Assistant', sans-serif;
+                           font-size: 18px;
+                           font-style: normal;
+                           font-weight: 400;
+                           line-height: 125%;
+                           letter-spacing: 0.36px;
+                        }
+                        &-btn{
+                            width: 257px;
+                            color: #FFF;
+                            text-align: center;
+                            font-family: 'Assistant', sans-serif;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 125%;
+                            letter-spacing: 0.36px; 
+                            border-radius: 30px;
+                            background: linear-gradient(91deg, #11AE88 5.69%, #2A84EE 169.72%);
+                            border: none;
+                            padding:13px 21px; 
+                            cursor: pointer;
+                            transition: 0.5s ease;
+                        }
+                        &-btn:active{
+                            transform: scale(0.4);
+                        }
+                    }
+                }
+            }
+        }
+    }
+        .container{
+            .biznes{
+                &__block{
+                    display: flex;
+                    padding-top: 113px;
+                    padding-left: 70px;
+                    &-text{
+                        &-h1{
+                            width: 973px;
+                            color: #212121;
+                            font-family: 'Assistant', sans-serif;
+                            font-size: 60px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 125%;
+                            letter-spacing: 1.2px;
+                            padding-bottom: 55px;
+                            .span3{
+                                color: #2EB897;
+                            }
+                            .span4{
+                                color: #2A84EE;
+                            }
+                            
+                        }
+                        &-span{
+                            
+                            color: #6C778E;
+                            font-family: 'Assistant', sans-serif;
+                            font-size: 26px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 125%;
+                            letter-spacing: 0.52px;
+                           
+                        }
+                    }
+                    
+                    .handmade_painting__block{
+                        padding-top: 117px;
+                        margin-right:200px;
+                        &-mg1{
+                         position: absolute;
+                         margin-left: 290px;
+                         margin-top: -40px;
+                        }
+                        &-mg2{
+                         position: relative;
+                         z-index: 2;
+                        }
+                        &-mg3{
+                         position: absolute;
+                         z-index: 3;
+                         margin-left:-730px;
+                         margin-top: 200px;
+                        }
+                    }
+                    .Email__block{
+                        margin-top: 61px;
+                        width: 782px;
+                        
+                        border-radius: 20px;
+                        background: linear-gradient(91deg, #11AE88 5.69%, #2A84EE 125.81%), #2EB897;
+                        box-shadow: 0px 0px 50px 0px rgba(46, 184, 151, 0.30);
+                        &-div1{
+                            padding-top: 50px;
+                            padding-left: 40px;
+                            padding-bottom: 50px;
+                            
+                            &-span{
+                                width: 604px;
+                                color: #FFF;
+                                font-family: 'Assistant', sans-serif;
+                                font-size: 21px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 125%;
+                                letter-spacing: 0.42px;
+                              
+                            }
+                            &-div2{
+                                background-color: #FFF;
+                                width: 640px;
+                                 height:65px;
+                                 margin-top: 40px;
+                                 border-radius:30px;
+                                 gap: 123px;
+                                input{
+                                    width: 284px;
+                                    color: #C3C3C3;
+                                    font-family: 'Assistant', sans-serif;
+                                    font-size: 20px;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    line-height: 125%;
+                                    letter-spacing: 0.4px;
+                                    border-radius: 30px;
+                                    border: none;
+                                    margin-right: 123px;
+                                    padding-left: 15px;
+                                    padding-top: 20px;
+                                    padding-bottom: 20px;
+                                    
+                                   
+                                    
+                                }
+                                &-btn{
+                                   
+                                    color: #FFF;
+                                    text-align: center;
+                                    font-family: 'Assistant', sans-serif;
+                                    font-size: 18px;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    line-height: 125%;
+                                    letter-spacing: 0.36px;
+                                    padding: 16px 58px;
+                                    margin-top: 5px;
+                                    margin-bottom: 5px;
+                                    border-radius: 30px;
+                                    background: linear-gradient(91deg, #11AE88 5.69%, #2A84EE 169.72%), #11AE88;
+                                    border: none;
+                                    cursor: pointer;
+                                    transition: 0.5s ease;
+                                }
+                                &-btn:active{
+                                    transform: scale(0.4);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+}
+
+
+@media screen and (max-width:400px) {
+    body{
+        overflow-x: hidden;
+    }
+  .header{
+    .nav{
+        width:70%;
+     
+        .mpassistant{
+            &__block{
+                &-logo{
+                    img{
+                        margin-left: 20px;
+                    }
+                    &-p{
+                      display: none;
+                    }
+                }
+                .list{
+                    &__menu{
+                        &-item{
+                         display: none;
+                        }
+                    }
+                }
+                .btns{
+                    &-img1{
+                        max-width: 26px;
+                        height: 25px;
+                      
+                    }
+                    &-img2{
+                       display: block;
+                     
+                    }
+                    &-span{
+                        display: none;
+                    }
+                    &-btn{
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+    .biznes{
+        &__block{
+            &-text{
+             width: 100%;
+             text-align: center;
+                &-h1{
+                 max-width: 320px;
+                
+                 font-size: 28px;
+                 line-height: 115%;
+                 letter-spacing: 0.56px;
+                 margin-left: -20px;
+                 
+                }
+                &-span{
+                    max-width: 320px;
+                    font-size: 18px;
+                    line-height: 125%; 
+                    letter-spacing: 0.36px;
+                }
+            }
+            .Email__block{
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+               margin-top: 40px;
+               max-width: 320px;
+                &-div1{
+                   
+                    &-span{
+                        max-width: 279px;
+                        font-size: 16px;
+                        line-height: 125%;
+                        letter-spacing: 0.32px;
+                    }
+                }
+                &-div2{
+                 display:none;
+                
+                    input{
+                        max-width: 280px;
+                    }
+                    
+                   
+                }
+            }
+            .handmade_painting__block{
+                &-mg1{
+                    display: none;
+                }
+                &-mg2{
+                    display: none;
+                }
+                &-mg3{
+                    display: none;
+                }
+            }
+        }
+    }
+  }
+
+}

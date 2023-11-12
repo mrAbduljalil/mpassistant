@@ -1,0 +1,289 @@
+.header .nav .container .mpassistant__block {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 30px;
+}
+.header .nav .container .mpassistant__block-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 31px;
+}
+.header .nav .container .mpassistant__block-logo-p {
+  width: 220px;
+  color: #969EB1;
+  font-family: "Assistant", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+}
+.header .nav .container .mpassistant__block-logo .span1 {
+  color: #702A8A;
+}
+.header .nav .container .mpassistant__block-logo .span2 {
+  color: #1065FF;
+}
+.header .nav .container .mpassistant__block .list__menu {
+  display: flex;
+  gap: 36px;
+}
+.header .nav .container .mpassistant__block .list__menu-item {
+  color: #212121;
+  font-family: "Assistant", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+  letter-spacing: 0.36px;
+}
+.header .nav .container .mpassistant__block .list__menu-link {
+  color: #212121;
+}
+.header .nav .container .mpassistant__block .btns-img2 {
+  display: none;
+}
+.header .nav .container .mpassistant__block .btns-span {
+  width: 65px;
+  color: #212121;
+  text-align: center;
+  font-family: "Assistant", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+  letter-spacing: 0.36px;
+}
+.header .nav .container .mpassistant__block .btns-btn {
+  width: 257px;
+  color: #FFF;
+  text-align: center;
+  font-family: "Assistant", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+  letter-spacing: 0.36px;
+  border-radius: 30px;
+  background: linear-gradient(91deg, #11AE88 5.69%, #2A84EE 169.72%);
+  border: none;
+  padding: 13px 21px;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.header .nav .container .mpassistant__block .btns-btn:active {
+  transform: scale(0.4);
+}
+.header .container .biznes__block {
+  display: flex;
+  padding-top: 113px;
+  padding-left: 70px;
+}
+.header .container .biznes__block-text-h1 {
+  width: 973px;
+  color: #212121;
+  font-family: "Assistant", sans-serif;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+  letter-spacing: 1.2px;
+  padding-bottom: 55px;
+}
+.header .container .biznes__block-text-h1 .span3 {
+  color: #2EB897;
+}
+.header .container .biznes__block-text-h1 .span4 {
+  color: #2A84EE;
+}
+.header .container .biznes__block-text-span {
+  color: #6C778E;
+  font-family: "Assistant", sans-serif;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+  letter-spacing: 0.52px;
+}
+.header .container .biznes__block .handmade_painting__block {
+  padding-top: 117px;
+  margin-right: 200px;
+}
+.header .container .biznes__block .handmade_painting__block-mg1 {
+  position: absolute;
+  margin-left: 290px;
+  margin-top: -40px;
+}
+.header .container .biznes__block .handmade_painting__block-mg2 {
+  position: relative;
+  z-index: 2;
+}
+.header .container .biznes__block .handmade_painting__block-mg3 {
+  position: absolute;
+  z-index: 3;
+  margin-left: -730px;
+  margin-top: 200px;
+}
+.header .container .biznes__block .Email__block {
+  margin-top: 61px;
+  width: 782px;
+  border-radius: 20px;
+  background: linear-gradient(91deg, #11AE88 5.69%, #2A84EE 125.81%), #2EB897;
+  box-shadow: 0px 0px 50px 0px rgba(46, 184, 151, 0.3);
+}
+.header .container .biznes__block .Email__block-div1 {
+  padding-top: 50px;
+  padding-left: 40px;
+  padding-bottom: 50px;
+}
+.header .container .biznes__block .Email__block-div1-span {
+  width: 604px;
+  color: #FFF;
+  font-family: "Assistant", sans-serif;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+  letter-spacing: 0.42px;
+}
+.header .container .biznes__block .Email__block-div1-div2 {
+  background-color: #FFF;
+  width: 640px;
+  height: 65px;
+  margin-top: 40px;
+  border-radius: 30px;
+  gap: 123px;
+}
+.header .container .biznes__block .Email__block-div1-div2 input {
+  width: 284px;
+  color: #C3C3C3;
+  font-family: "Assistant", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+  letter-spacing: 0.4px;
+  border-radius: 30px;
+  border: none;
+  margin-right: 123px;
+  padding-left: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.header .container .biznes__block .Email__block-div1-div2-btn {
+  color: #FFF;
+  text-align: center;
+  font-family: "Assistant", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+  letter-spacing: 0.36px;
+  padding: 16px 58px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 30px;
+  background: linear-gradient(91deg, #11AE88 5.69%, #2A84EE 169.72%), #11AE88;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.header .container .biznes__block .Email__block-div1-div2-btn:active {
+  transform: scale(0.4);
+}
+
+@media screen and (max-width: 400px) {
+  body {
+    overflow-x: hidden;
+  }
+  .header .nav {
+    width: 70%;
+  }
+  .header .nav .mpassistant__block-logo img {
+    margin-left: 20px;
+  }
+  .header .nav .mpassistant__block-logo-p {
+    display: none;
+  }
+  .header .nav .mpassistant__block .list__menu-item {
+    display: none;
+  }
+  .header .nav .mpassistant__block .btns-img1 {
+    max-width: 26px;
+    height: 25px;
+  }
+  .header .nav .mpassistant__block .btns-img2 {
+    display: block;
+  }
+  .header .nav .mpassistant__block .btns-span {
+    display: none;
+  }
+  .header .nav .mpassistant__block .btns-btn {
+    display: none;
+  }
+  .header .biznes__block-text {
+    width: 100%;
+    text-align: center;
+  }
+  .header .biznes__block-text-h1 {
+    max-width: 320px;
+    font-size: 28px;
+    line-height: 115%;
+    letter-spacing: 0.56px;
+    margin-left: -20px;
+  }
+  .header .biznes__block-text-span {
+    max-width: 320px;
+    font-size: 18px;
+    line-height: 125%;
+    letter-spacing: 0.36px;
+  }
+  .header .biznes__block .Email__block {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+    max-width: 320px;
+  }
+  .header .biznes__block .Email__block-div1-span {
+    max-width: 279px;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: 0.32px;
+  }
+  .header .biznes__block .Email__block-div2 {
+    display: none;
+  }
+  .header .biznes__block .Email__block-div2 input {
+    max-width: 280px;
+  }
+  .header .biznes__block .handmade_painting__block-mg1 {
+    display: none;
+  }
+  .header .biznes__block .handmade_painting__block-mg2 {
+    display: none;
+  }
+  .header .biznes__block .handmade_painting__block-mg3 {
+    display: none;
+  }
+}
+.container {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/*# sourceMappingURL=main.css.map */

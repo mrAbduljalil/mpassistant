@@ -99,7 +99,7 @@
                             width: 973px;
                             color: #212121;
                             font-family: 'Assistant', sans-serif;
-                            font-size: 60px;
+                            //  font-size: 50px;
                             font-style: normal;
                             font-weight: 400;
                             line-height: 125%;
@@ -169,7 +169,7 @@
                               
                             }
                             &-div2{
-                                background-color: #FFF;
+                                // background-color: #FFF;
                                 width: 640px;
                                  height:65px;
                                  margin-top: 40px;
@@ -181,12 +181,13 @@
                                     font-family: 'Assistant', sans-serif;
                                     font-size: 20px;
                                     font-style: normal;
+                                   
                                     font-weight: 400;
                                     line-height: 125%;
                                     letter-spacing: 0.4px;
                                     border-radius: 30px;
                                     border: none;
-                                    margin-right: 123px;
+                                    padding-right: 123px;
                                     padding-left: 15px;
                                     padding-top: 20px;
                                     padding-bottom: 20px;
@@ -273,19 +274,20 @@
     .biznes{
         &__block{
             &-text{
+               
              width: 100%;
              text-align: center;
                 &-h1{
                  max-width: 320px;
-                
-                 font-size: 28px;
+                  
+                 
                  line-height: 115%;
                  letter-spacing: 0.56px;
                  margin-left: -20px;
                  
                 }
                 &-span{
-                    max-width: 320px;
+                width: 320px;
                     font-size: 18px;
                     line-height: 125%; 
                     letter-spacing: 0.36px;
@@ -305,13 +307,22 @@
                         line-height: 125%;
                         letter-spacing: 0.32px;
                     }
+                    &-div2{
+                        width: 320px;
+                        height: 710px;
+                       
+                            input{
+                             display: flex;
+                             width: 280px;
+                             height: 48px;
+                             margin-bottom: 20px;
+                            }
+                            &-btn{
+                             margin-right: 400px;
+                            }
+                           
                 }
-                &-div2{
-                 display:none;
-                
-                    input{
-                        max-width: 280px;
-                    }
+               
                     
                    
                 }
